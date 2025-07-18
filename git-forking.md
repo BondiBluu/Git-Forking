@@ -15,7 +15,8 @@ We're going to fork an existing GitHub project in order to freely make changes o
 - Find the repository you want to fork from. For example, go to a GitHub with the username `octocat`, then click on their **Spoon-Knife** project.
 	- https://github.com/octocat/Spoon-Knife
 - Create a fork (located on the top right of the page) of that repository. 
- 		![](forkingpng.png)
+
+  		![](forkingpng.png)
 - If there are `no available destinations to fork this repository`, you'll see your GitHub username/Spoon-Knife. 
 	- This is telling you what your own version of this project is going to be named. Click on that.
 	- Your own copy has now been created.
@@ -27,14 +28,16 @@ You'll need to set up git bash in order to continue this tutorial. Download it u
 - These are the steps to make a git bash account
 	- `git config --global user.name "your-GitHub-username"` (make it the account name you’re using.)
 		- Though, some teams you'll be on would like you to use your actual name. Use that if this is the case. 
-		![](git-user-name.png)	
+		
+  		![](git-user-name.png)	
 - Configure your email as well. This uses the same method as `config user.name` 
 	- `git config --global user.email "email@email.com"`
     
 - Check if you've done the steps correctly:
 	- `git config --list`
 	- The list should show both that you typed in as your username and email.
-			![](git-user-info-png.png)
+
+   		![](git-user-info-png.png)
    
 ## Clone Your Fork Locally
 
@@ -45,13 +48,16 @@ Cloning puts our repository on our local machine. You can then work online, use 
 		- If you haven't left your **Spoon-Knife** version of your repository, the page URL is the URL that you need. Just copy it and use `git clone`.
 		- You can also, while you're on your version of the repository, click on `< > Code`
 			- The tab will be on `HTTPS`. Copy the URL and clone:
-		![](clone-repo-png.png)
+		
+  		![](clone-repo-png.png)
+   
 		- `git clone the-URL-of-your-repo`
 	- Switch into the directory you just made. 
 		- `cd Spoon-Knife`
 			- Note: `cd` means "change directory" in Git. Use it to go into and out of any directory in that folder.
 	- You're currently on the master branch.
 		- If you're wondering, the `origin` is already set up when you’ve cloned it. Try `git remote` to see.
+    
 		![](on-origin-png.png)
 
 ## Get a Reference to Upstream ( the Original Repository)
@@ -62,7 +68,8 @@ This is for if you ever want to insert your changes into the original repository
 	 - `git remote add upstream the-URL-of-the-repository-you-forked-from`
 		 - (in this case, `https://github.com/octocat/Spoon-Knife`)"
 - Do a `git remote`. You have the repository there.
-		![](upstream-png.png)
+
+  		![](upstream-png.png)
   
 	- This shows both the `origin` (your copy) and `upstream` (the original repository).
 
