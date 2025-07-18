@@ -14,7 +14,7 @@ We're going to fork an existing GitHub project in order to freely make changes o
 - Find the repository you want to fork from. For example, go to a GitHub with the username `octocat`, then click on their **Spoon-Knife** project.
 	- https://github.com/octocat/Spoon-Knife
 - Create a fork (located on the top right of the page) of that repository. 
- [](forkingpng.png)
+ ![](forkingpng.png)
 - If there are `no available destinations to fork this repository`, you'll see your GitHub username/Spoon-Knife. 
 	- This is telling you what your own version of this project is going to be named. Click on that.
 	- Your own copy has now been created.
