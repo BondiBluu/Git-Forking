@@ -1,4 +1,4 @@
-# Welcome to the Git Forking Explanation and Tutorial
+# Git Forking Explanation and Tutorial
 
 Navigate to:
 - [Git Forking](git-forking.md)
