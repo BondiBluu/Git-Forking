@@ -60,6 +60,7 @@ This is for if you ever want to insert your changes into the original repository
 		 - (in this case, `https://github.com/octocat/Spoon-Knife`)"
 - Do a `git remote`. You have the repository there.
 		![](upstream-png.png)
+  
 	- This shows both the `origin` (your copy) and `upstream` (the original repository).
 
 ## Keep Your Fork in Sync 
